@@ -7,7 +7,7 @@ function App() {
   return (
 
 
-    <div className="w-[100vw] h-[100vh] flex justify-center items-center flex-wrap p-10">
+    <div className="w-[100vw] h-[100vh] flex justify-center items-center flex-wrap m-20">
         
       <CanvasLayout/>
 

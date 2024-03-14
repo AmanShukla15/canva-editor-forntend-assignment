@@ -27,7 +27,6 @@ const UserForm = () => {
 
     // Update the state
     setColorsArray(newColors);
-    console.log(colorsArray)
 
   };
 

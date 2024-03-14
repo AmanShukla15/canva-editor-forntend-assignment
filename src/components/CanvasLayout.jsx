@@ -69,9 +69,9 @@ function CanvasLayout() {
 
                 <img src={`${selectedFile ? (selectedFile) : (`${cakeimg}`)}`} className={` w-[75%] h-[75%] absolute right-[15%] top-2 rounded-[13%]`} alt='img' />
 
-                <div className='w-[70%] h-[60px] absolute bottom-[3%] left-[12%] flex justify-between items-center'>
+                <div className='w-[70%] h-[60px] absolute bottom-[3%] left-[12%] flex justify-between items-center gap-5'>
                     <p className='w-[60%] font-bold text-[15px]'>{text ? text : ("1 & 2 BHK Luxury Apartment at just Rs.34.97 Lakhs")}</p>
-                    <button className='w-[50%] h-[50%] bg-white font-bold rounded-lg ml-11'>{ctaText ? ctaText : "Contact Us"}</button>
+                    <button className='w-[50%] h-[50%] bg-white font-bold rounded-lg '>{ctaText ? ctaText : "Contact Us"}</button>
                 </div>
 
             </div>

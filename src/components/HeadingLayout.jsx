@@ -14,7 +14,7 @@ function HeadingLayout() {
         setSelectedFile(URL.createObjectURL(event.target.files[0]));
     };
     return (
-        <div className="md:w-[970px] h-[600px] flex flex-col items-center p-20  ">
+        <div className="w-[970px] h-[600px] flex flex-col items-center p-20  ">
 
             <div className="flex flex-col items-center mb-10 w-[100%] ">
                 <h1 className=" font-bold text-3xl">Ad customization</h1>
